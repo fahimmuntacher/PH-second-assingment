@@ -186,3 +186,53 @@ second section text style ends
 /* =============================
 second section style ends
 ================================= */
+
+/* =====================
+ section third css style start
+ =========================  */
+ .section-third{
+    display: flex;
+    width: 1200px;
+    height: 982px;
+    background: white;
+    margin-left: 150px;
+    margin-top: 20px;
+ }
+
+
+ }
+ .third-image{
+    width: 600px;
+    height: 900px;
+ }
+ .third-section-header{
+    display: flex;
+ }
+ .horizontal{
+    margin-left: 28px;
+    width: 5px;
+    height: 85px;
+    background: #FF900E;
+    border: none;
+ }
+ .third-title{
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    margin-left: 40px;
+    margin-top: 29px;
+    color: #131313;
+    font-size: 31px;
+    display: inline-flex;
+}
+
+.third-description{
+    position: absolute;
+   left: 66%;
+   top: 1875px;
+   font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
