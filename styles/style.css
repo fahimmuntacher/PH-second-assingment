@@ -86,3 +86,103 @@ ul{
 /* ====================
 banner style end
 ======================== */
+
+/* ==================
+second section style start
+========================= */
+.section-second{
+    display: flex;
+}
+/* =================================
+second-section images style
+=================================== */
+.second-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    width: 500px;
+    height: 500px;  
+    margin-left: 10%; 
+    margin-top: 40px;
+    border-color: aliceblue;
+    border-radius: 10px;
+    gap: 12px;
+}
+.second-images-1{
+    width: 245px;
+    height: 245px;
+}
+.second-images-2{
+     width: 245px;
+    height: 245px;
+}
+.second-images-3{
+    width: 245px;
+   height: 245px;
+}
+.second-images-4{
+    width: 245px;
+   height: 245px;
+}
+/* ==================
+second section images style end
+ ========================*/
+
+ /* ================
+ second section text style
+ ======================= */
+ .second-title{
+    margin-left: 50px;
+    margin-top: 180px;
+ }
+ #quick-list{
+    color: #727272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+ }
+ #of-our{
+    color: #131313;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-left: 6px;
+
+ }
+ #features{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+ }
+.second-description{
+    margin-left: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* ================
+second section text style ends
+=========================== */
+
+.second-bttn{
+    margin-left: 50px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+/* =============================
+second section style ends
+================================= */
