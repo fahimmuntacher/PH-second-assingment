@@ -1,6 +1,88 @@
-/* header section style */
+/*------------------
+ header section style
+ ------------------- */
 .main{
-    width: 1920px;
-    height: 1322px;
+    width: 100%;
+    height: 1225px;
     background: #FF900E1A;
 }
+/*------------------------ nav style----------------------- */
+.nav-title{
+    position: relative;
+    left: 120px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    margin-top: 35px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 48px;
+    
+}
+.nav-menu{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+/*-----------------------------
+ banner style
+ ----------------------------- */  
+.banner{
+    justify-content: center;
+}
+.banner-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.banner-descriptio{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333131;
+    margin-bottom: 30px;
+}
+.banner-bttn{
+    position: absolute;
+    margin-left: 42%;
+    width: 180px;
+    height: 60px;
+    background: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+.image-banner{
+    top: 570px;
+}
+.banner-img{
+    position: absolute;
+    top: 500px;
+    width: 1335px;
+    border-radius: 10px;
+}
+/* ====================
+banner style end
+======================== */
