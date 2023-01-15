@@ -192,7 +192,7 @@ second section style ends
  =========================  */
  .section-third{
     display: flex;
-    width: 1200px;
+    width: 90%;
     height: 982px;
     background: white;
     margin-left: 150px;
@@ -236,3 +236,61 @@ second section style ends
     font-size: 16px;
     line-height: 26px;
 }
+.third-layout1{
+    position: absolute;
+    top: 1995px;
+    width: 450px;
+    height: 150px;
+    left: 66%;
+    background: #fdefef;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    
+
+}
+.third-layout2{
+    position: absolute;
+    top: 2190px;
+    width: 450px;
+    height: 150px;
+    left: 66%;
+    background: #fdefef;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.third-layout3{
+    position: absolute;
+    top: 2380px;
+    width: 450px;
+    height: 150px;
+    left: 66%;
+    background: #fdefef;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.third-layout4{
+    position: absolute;
+    top: 2580px;
+    width: 450px;
+    height: 150px;
+    left: 66%;
+    background: #fdefef;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.third-layout5{
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    top: 2740px;
+    left: 60%;
+    background: #FF900E;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    border-radius: 10px;
+}
+/* ========================================
+section third css style end
+=========================================== */
