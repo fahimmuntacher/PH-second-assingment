@@ -531,7 +531,7 @@ section 4 css style end
     position: absolute;
     margin-top: 40px;
     margin-left: 15%;
-    width: 900px;
+    width: 100%;
     height: 50px;
     background: #fdefef;
 border-radius: 12px;
@@ -544,4 +544,228 @@ border-radius: 12px;
     font-style: normal;
     color: #424242;
 }
-/* all css finish here  */
+
+
+/* ==================
+media query
+====================== */
+
+/* mobile deivice */
+@media screen and (max-width: 688px) {
+    .main{
+
+        width: 100%;
+        height: 800px;
+        background: #FF900E1A;
+    }
+    .nav-title{
+        position: absolute;
+        display: flex;
+        left: 20px;
+        font-size: 30px;
+    }
+    .nav-menu{
+        position: relative;
+        margin-left: 215px;
+        margin-top: 3px;
+        display: table;
+    }
+    .banner-title{
+        font-size: 35px;
+    }
+    .banner-descriptio{
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        color: #333131;
+        /* margin-bottom: 30px; */
+    }
+    .banner-bttn{
+    margin-left: 27%;
+    width: 140px;
+    height: 40px;
+    background: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    }
+    .banner-img{
+        width: 90%;
+        margin-top: 110px;
+        margin-left: 12px;
+        
+    }
+    .second-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    width: 00px;
+    height: 350px;  
+    margin-left: 0%; 
+    margin-top: 40px;
+    border-color: aliceblue;
+    border-radius: 5px;
+    gap: 5px
+    }
+    
+     .second-images-1{
+        width: 180px;
+        height: 180px;
+    }
+    .second-images-2{
+         width: 180px;
+        height: 180px;
+    }
+    .second-images-3{
+        width: 180px;
+       height: 180px;
+    }
+    .second-images-4{
+        width: 180px;
+       height: 180px;
+    }
+    .second-title{
+        margin-left: 2%;
+        margin-top: 549px;
+        font-size: 20px;
+        margin-top: 430px;
+    }
+    .second-description{
+        margin-left: 3%;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;}
+    .second-bttn{
+        margin-left: 3px;
+        width: 140px;
+        height: 40px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        background: #FF900E;
+        border: none;
+        border-radius: 8px;
+    }
+    .third-image{
+        position: absolute;
+        display: none;
+        width: 400px;
+        height: 700px;
+        left: 20px;
+    }
+    .horizontal{
+        margin-left: -135px;
+        width: 5px;
+        height: 85px;
+        background: #FF900E;
+        border: none;
+     }
+     .third-title{
+        
+        font-family: 'Work Sans';
+        font-style: normal;
+        margin-left: -110px;
+        margin-top: 18px;
+        color: #131313;
+        font-size: 30px;
+        display: inline-flex;
+    }
+    .third-description{
+        display: none;
+    }
+    .third-layout1{
+        left: 20px;
+        top: 1650px;
+        width: 350px;
+        height: 140px;
+
+    }
+    .third-layout2{
+        left: 20px;
+        top: 1820px;
+        width: 350px;
+        height: 140px;
+    }
+    .third-layout3{
+        left: 20px;
+        top: 1980px;
+        width: 350px;
+        height: 140px;
+    }
+    .third-layout4{
+        left: 20px;
+        top: 2140px;
+        width: 350px;
+        height: 140px;
+    }
+    .third-layout5{
+        position: absolute;
+        width: 200px;
+        height: 80px;
+        top: 2320px;
+        left: 25%;
+        font-size: 13px;
+        background: #FF900E;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Work Sans';
+        font-style: normal;
+        border-radius: 10px;
+    }
+    .forth-title{
+        font-family: 'Work Sans';
+        font-style: normal;
+        color: #131313;
+        display: none;
+    }
+    .forth-description{
+        font-family: 'Work Sans';
+        font-style: normal;
+        color: #727272; 
+        display: none;
+    }
+    .box-1{
+        left: -100px;
+        top: -500px;
+    }
+    .box-2{
+        left: -107px;
+        top: -500px;
+    }
+    .box-3{
+        left: -540px;
+        top: -350px;
+    }
+    .box-4{
+        left: -540px;
+        top: -350px;
+    }
+    .footer-title{
+     margin-top: -500px;
+    }
+    .footer-img{
+        display: grid;
+        grid-template-columns: 
+        repeat(2, 1fr);
+        margin-left: 15px;
+    }
+    .footer-img-5{
+        margin-left: 75%;
+    }
+    .final-footer{
+        width: 100%;
+        height: 70px;
+        margin-left: 20px;
+        margin-left: 2px;
+    }
+    .final-footer-description{
+        
+    margin-left: 3px;
+    }
+    /* all css finish here  */
